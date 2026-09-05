@@ -2,14 +2,7 @@
 	Name:  Criptografado.cpp
 	Author: Davi Lopes
 	Date: 05/09/26 05:25
-	Description: Crie uma função que receba dois vetores, um com seu nome completo e outro com os dados
-				do seu CPF e RG. Nesta função, chamada "merge" deverá misturar os dados dos dois 
-				vetores da seguinte forma:
-				Entrada "vetor1": Antonio Gabriel Leme
-				Entrada "vetor2": 09935678224 138456732 (observe quem tem um espaço entre CPF e RG)
-				O novo vetor gerado com o texto "misturado" deverá ser passado parauma outra função
-				que deverá realizar a impressão dele. Saída vetor "crypto": A0n9t9o3n5i6o7 8G2a2b4r 
-				i1e3l8 4L5e6m7e32
+	Description: Programa para criptografar informações
 */
 
 //biblioteca
