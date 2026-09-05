@@ -2,18 +2,18 @@
 	Name: Palindromo.cpp
 	Author: Davi Lopes
 	Date: 04/09/26 10:35
-	Description: Programa para verificar se uma palavra é um palindromo
+	Description: Programa para verificar se uma palavra Ã© um palindromo
 */
 
 //biblioteca
 #include <stdio.h>
 
-//prototipação
+//prototipaÃ§Ã£o
 void verificarPalavra (char *);
 
 main(){
 	
-	char palavra[10];
+	char palavra[20];
 	
 	printf("Digite uma palavra para verificar: ");
 	gets(palavra);	
@@ -22,43 +22,45 @@ main(){
 	
 }//fim do main
 
-//função
+//funÃ§Ã£o
 void verificarPalavra (char *P){
 	
+	int tamanho = 0;
+	int aux = 0;
 	int falso = 0;
 	
-	char verificacao[10];
-	
-	for (int i = 0; i < 10; i++){
-		
-		verificacao[i] = P[9 - i];
-		
-	}
-	
-	printf("\n\npalavra escrita: ");
-	
-	for (int i = 0; i < 10; i++){
-		
-		printf("%c", P[i]);
-		
-	}
-	
-	printf("\n\npalavra invertida: ");
-	
-	for (int i = 0; i < 10; i++){
-		
-		printf("%c", verificacao[i]);
-		
-	}
-	
-	for (int i = 0; P[0] != verificacao[i]; i++) {
-
-		scanf("%d", &falso);		
-		
+	while (P[tamanho] != '\0') {
+        tamanho++;
     }
+    
+    aux = tamanho;
+    
+    char verificacao[tamanho];
+    
+    for (int i = 0; i < aux; i++){
     	
-    printf("%d", falso);
+    	verificacao[i] = P[tamanho - 1];
+    	tamanho--;
+    	
+	}
+	
+	for (int i = 0; i < aux; i++){
+		
+		if (P[i] != verificacao[i]){
+			
+			falso++;
+			
+		}
+		
+	}
+	
+	if (falso > 0){
+		
+		printf("%s nao eh um palindromo!!!", P);
+		
+	}else {
+		
+		printf("%s eh um palindromo!!!", P);
+	
+	}	
 }
-    
-    
-
