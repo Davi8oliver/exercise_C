@@ -35,24 +35,15 @@ void verificarPalavra (char *P){
     
     aux = tamanho;
     
-    char verificacao[tamanho];
-    
-    for (int i = 0; i < aux; i++){
-    	
-    	verificacao[i] = P[tamanho - 1];
-    	tamanho--;
-    	
-	}
-	
 	for (int i = 0; i < aux; i++){
 		
-		if (P[i] != verificacao[i]){
+		if (P[i] != P[tamanho - 1]){
 			
 			falso++;
 			
 		}
-		
-	}
+		tamanho--;
+	}	
 	
 	if (falso > 0){
 		
