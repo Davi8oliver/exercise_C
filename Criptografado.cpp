@@ -1,78 +1,55 @@
 /*
 	Name:  Criptografado.cpp
 	Author: Davi Lopes
-	Date: 05/09/26 05:25
-	Description: Programa para criptografar informaÃ§Ãµes
+	Date: 09/09/26 11:44
+	Description: Programa para criptografar informações
 */
 
 //biblioteca
 #include <stdio.h>
 
-//prototipaÃ§Ã£o
+//prototipação
 void merge (char *, char *);
-void mostrarCrypto (char *);
 
 main(){
 	
-	char vetor1[60];
-	char vetor2[60];
+	char nome[70];
+	char docs[21];
 	
-	printf("Digite seu nome completo: ");
-	gets(vetor1);
+	printf("Digite seu nome completo: "); gets(nome);
 	
-	printf("Digite seu cpf e rg: ");
-	gets(vetor2);
+	printf("Digite seu cpf e rg: "); gets(docs);
 	
-	merge(vetor1, vetor2);
+	merge(nome, docs);
 	
 }//fim do main
 
-//funÃ§Ã£o
-void merge (char *V1, char *V2){
+//função
+void merge (char *N, char *D){
 	
+	int i, j;
 	
-	char crypto[84];
+	for (i = 0; N[i] != '\0'; i++)
+	{}
 	
-	int aux = 0;
+	int tam = i + 21;
 	
-	for (int i = 0; i < 84; i++){
+	char crypto[tam];
+	
+	for (i = 0, j = 0; i < tam ; i++){
 		
-		if ( i - (2 * (i / 2)) == 1 ){	
-			if (V2[i/2] == '\0'){
-				crypto[i] = ' ';
-				aux++;
-				
-				if (aux > 1){
-					crypto[i] = '\0';
-				}
-			}else {
-				crypto[i] = V2[i/2];
-			}
-		}else{
-			
-			if (V1[i/2] == '\0'){
-				crypto[i] = ' ';
-				aux++;
-				
-				if (aux > 1){
-					crypto[i] = '\0';
-				}
-			}else {
-				crypto[i] = V1[i/2];
-			}
-			
+		if(N[i] != '\0' && D[i] != '\0'){
+			crypto[j] = N[i];
+			crypto[j+1] = D[i];
+		 	j = j + 2;
 		}
-	 	
+		
 	}
 	
-	crypto[84] = '\0';
+	puts("\n\n====> Conteudo do vetor crypto: ");
+	for (i = 0; crypto[i] != '\0'; i++){
 	
-	mostrarCrypto(crypto);
+		printf("%c|", crypto[i]);
 	
-}
-
-void mostrarCrypto (char *C){
-	
-	printf("\n\nDado criptografado: %s", C);
-	
+	}		
 }
