@@ -2,12 +2,12 @@
 	Name: MediaNotaV2.cpp
 	Author: Davi Lopes
 	Date: 02/09/26 10:45
-	Description: Programa para calcular a média de um aluno com vetor e função
+	Description: Programa para calcular a mÃ©dia de um aluno com vetor e funÃ§Ã£o
 */
 
 #include <stdio.h>
 
-//Prototipação
+//PrototipaÃ§Ã£o
 float calcularMedia(float *);
 
 void analizarMedia(float);
@@ -28,7 +28,7 @@ main()
 	
 }
 
-//Função 1
+//FunÃ§Ã£o 1
 float calcularMedia(float *N)
 {
 	
@@ -46,7 +46,7 @@ float calcularMedia(float *N)
 	
 }
 
-//Função 1
+//FunÃ§Ã£o 1
 void analizarMedia(float m){
 	
 	if (m < 4){
