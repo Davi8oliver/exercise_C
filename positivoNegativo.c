@@ -1,5 +1,5 @@
 /*
-	Name: positivoNegativo.cpp
+	Name: positivoNegativo.c
 	Author: Davi Lopes
 	Date: 01/09/26 11:13
 	Description: Programa para verificar se um numero é positivo ou negativo utilizando função

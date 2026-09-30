@@ -1,5 +1,5 @@
 /*
-	Name: idade.cpp
+	Name: idade.c
 	Author: Davi Lopes 
 	Description: Programa para classificar a idade de uma pessoa com função
 */

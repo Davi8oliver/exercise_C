@@ -1,5 +1,5 @@
 /*
-	Name: MediaDez.cpp
+	Name: MediaDez.c
 	Author: Davi Lopes
 	Date: 04/09/26 10:10
 	Description: Programa para calcular a média de dez números com vetores e funções

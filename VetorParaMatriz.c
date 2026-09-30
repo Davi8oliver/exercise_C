@@ -3,8 +3,8 @@
 	Author: Davi Lopes
 	Date: 30/09/26 11:37
 	Description: Programa para carregar um vetor com 25 elementos inteiros
-	 			 passar para uma função e, a partir daí faça a carga em uma matriz quadrada
-	 			 de ordem 5, e depois imprima o vetor em uma função e a matriz em outra.
+	 				 passar para uma função e, a partir daí faça a carga em uma matriz quadrada
+	 				 de ordem 5, e depois imprima o vetor em uma função e a matriz em outra.
 */
 
 //biblioteca

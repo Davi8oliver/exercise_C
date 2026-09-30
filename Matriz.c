@@ -1,5 +1,5 @@
 /*
-	Name: Matriz.cpp
+	Name: Matriz.c
 	Author: Davi Lopes
 	Date: 16/09/26 10:06
 	Description: Programa para manipular matrizes dentro de uma função

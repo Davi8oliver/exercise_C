@@ -92,3 +92,4 @@ void determinarMaiorConjunto(int M[][5]){
 			printf("O maior gupo eh o Abaixo da Diagonal Secundaria");
 		}
 }
+

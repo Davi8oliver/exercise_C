@@ -1,7 +1,6 @@
 /*
-	Name: MuitoLoco.cpp
-	Author: Davi Lopes
-	Date: 02/09/26 10:45
+	Name: MuitoLoco.c
+	Author: Davi Lopes 
 	Description: Programa para manipular vetores junto com funções
 */
 

@@ -1,5 +1,5 @@
 /*
-	Name: NumeroInvertido.cpp
+	Name: NumeroInvertido.c
 	Author: Davi Lopes
 	Date: 08/09/26 10:42
 	Description: Programa para inverter um numero sem vetor

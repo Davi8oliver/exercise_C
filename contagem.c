@@ -1,5 +1,5 @@
 /*
-	Name: contagem.cpp
+	Name: contagem.c
 	Author: Davi Lopes 
 	Description: Programa para fazer uma contagem regressiva
 */

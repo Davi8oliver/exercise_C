@@ -1,5 +1,5 @@
 /*
-	Name: MediaNotaV2.cpp
+	Name: MediaNotaV2.c
 	Author: Davi Lopes
 	Date: 02/09/26 10:45
 	Description: Programa para calcular a média de um aluno com vetor e função

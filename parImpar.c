@@ -1,5 +1,5 @@
 /*
-	Name: parImpar.cpp
+	Name: parImpar.c
 	Author: Davi Lopes 
 	Description: Programa para verificar se um numero é par ou impar atravéz de funções
 */

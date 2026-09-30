@@ -1,5 +1,5 @@
 /*
-	Name: delta.cpp
+	Name: delta.c
 	Author: Davi Lopes
 	Date: 01/09/26 11:39
 	Description: Programa para calcular o delta de uma equação de segundo grau utilizando função

@@ -1,5 +1,5 @@
 /*
-	Name: mediaProvas.cpp
+	Name: mediaProvas.c
 	Author: Davi Lopes
 	Date: 01/09/26 12:03
 	Description: Programa para calcular a media de 3 ou 2 provas utilizando função

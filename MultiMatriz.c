@@ -1,5 +1,5 @@
 /*
-	Name: MultiMatriz.cpp
+	Name: MultiMatriz.c
 	Author: Davi Lopes
 	Date: 16/09/26 12:10
 	Description: Programa para multiplicar duas matrizes

@@ -1,5 +1,5 @@
 /*
-	Name: convercaoTemperatura.cpp
+	Name: convercaoTemperatura.c
 	Author: Davi Lopes
 	Date: 01/09/26 11:28
 	Description: Programa para converter Celcius em Fahrenheit utilizando função

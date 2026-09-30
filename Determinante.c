@@ -1,5 +1,5 @@
 /*
-	Name: Determinante.cpp
+	Name: Determinante.c
 	Author: Davi Lopes
 	Date: 22/09/26 10:58
 	Description: Programa para calcular o determinante de uma matriz

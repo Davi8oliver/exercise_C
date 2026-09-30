@@ -1,5 +1,5 @@
 /*
-	Name: Fibonacci.cpp
+	Name: Fibonacci.c
 	Author: Davi Lopes
 	Date: 30/09/26 09:54
 	Description: Programa para exibir a sequência de fibonacci com a quantidade de elementos escolhida pelo usuário

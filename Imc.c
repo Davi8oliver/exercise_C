@@ -1,5 +1,5 @@
 /*
-	Name: Imc.cpp
+	Name: Imc.c
 	Author: Davi Lopes 
 	Description: Programa para calcular o IMC de uma pessoa
 */

@@ -1,5 +1,5 @@
 /*
-	Name: PalindromoV2.cpp
+	Name: PalindromoV2.c
 	Author: Davi Lopes
 	Date: 04/09/26 10:35
 	Description: Programa para verificar se uma palavra é um palindromo

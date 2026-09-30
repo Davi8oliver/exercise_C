@@ -1,5 +1,5 @@
 /*
-	Name: passagemDeParametroGlobal.cpp
+	Name: passagemDeParametroGlobal.c
 	Author: Davi Lopes
 	Date: 26/08/26 09:59
 	Description: Programa para realizar a troca de valores entre variáveis demonstrando o conceito de passagem de parâmetros tanto por CÓPIA quanto por REFERÊNCIA

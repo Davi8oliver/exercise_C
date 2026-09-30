@@ -1,5 +1,5 @@
 /*
-	Name: SomaMatriz.cpp
+	Name: SomaMatriz.c
 	Author: Davi Lopes
 	Date: 16/09/26 11:50
 	Description: Programa para somar duas matrizes quadradas de mesma ordem

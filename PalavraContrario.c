@@ -1,5 +1,5 @@
 /*
-	Name: PalavraContrario.cpp
+	Name: PalavraContrario.c
 	Author: Davi Lopes
 	Date: 02/09/26 10:45
 	Description: Programa para ler uma string e armazenar no vetor

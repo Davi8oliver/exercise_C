@@ -1,5 +1,5 @@
 /*
-	Name: ponteiros.cpp
+	Name: ponteiros.c
 	Author: Davi Lopes 
 	Date: 26/08/26 11:55
 	Description: programa para monitorar ponteiros
