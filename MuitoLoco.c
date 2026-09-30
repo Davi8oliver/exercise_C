@@ -2,12 +2,12 @@
 	Name: MuitoLoco.cpp
 	Author: Davi Lopes
 	Date: 02/09/26 10:45
-	Description: Programa para manipular vetores junto com funções
+	Description: Programa para manipular vetores junto com funÃ§Ãµes
 */
 
 #include <stdio.h>
 
-//Prototipação
+//PrototipaÃ§Ã£o
 int LerNum();
 
 void imprimirVetor(int *);
@@ -23,7 +23,7 @@ main()
 	imprimirVetor(vet);
 }
 
-//Função para ler e retornar um número digitado pelo usuário
+//FunÃ§Ã£o para ler e retornar um nÃºmero digitado pelo usuÃ¡rio
 int LerNum()
 {
 	
@@ -36,11 +36,11 @@ int LerNum()
 
 }
 
-//Função para imprimir o vetor
+//FunÃ§Ã£o para imprimir o vetor
 void imprimirVetor(int *V)
 {
 	
-	//Imprimindo o conteúdo do vetor
+	//Imprimindo o conteÃºdo do vetor
 	for(int a = 0; a < 5; a++){
 		
 		printf("| %d | ", V[a]);
