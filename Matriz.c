@@ -2,7 +2,7 @@
 	Name: Matriz.cpp
 	Author: Davi Lopes
 	Date: 16/09/26 10:06
-	Description: Programa para manipular matrizes dentro de uma funÁ„o
+	Description: Programa para manipular matrizes dentro de uma fun√ß√£o
 */
 
 
@@ -10,7 +10,7 @@
 
 #include <stdio.h>
 
-//Prototi·Á„o
+//Prototi√°√ß√£o
 void imprimirMatriz (int [][3]);
 
 main ()
@@ -24,7 +24,7 @@ main ()
 	
 }//fim do main
 
-//funÁ„o
+//fun√ß√£o
 void imprimirMatriz (int mocorongo[][3]){
 
 	for (int i = 0; i < 3; i++){
