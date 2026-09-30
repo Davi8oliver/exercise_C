@@ -2,13 +2,13 @@
 	Name: PalindromoV2.cpp
 	Author: Davi Lopes
 	Date: 04/09/26 10:35
-	Description: Programa para verificar se uma palavra é um palindromo
+	Description: Programa para verificar se uma palavra Ã© um palindromo
 */
 
 //biblioteca
 #include <stdio.h>
 
-//prototipação
+//prototipaÃ§Ã£o
 int verificarPalindromo (char *);
 
 main(){
@@ -32,7 +32,7 @@ main(){
 		
 }//fim do main
 
-//função para verificar se é um palindromo
+//funÃ§Ã£o para verificar se Ã© um palindromo
 int verificarPalindromo (char *P)
 {
 	
