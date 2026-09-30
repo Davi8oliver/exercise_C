@@ -10,7 +10,7 @@
 
 #include <stdio.h>
 
-//Prototi·Á„o
+//Prototi√°√ß√£o
 void MultiMatrizes (int [3][2], int [2][3]);
 void ImprimirMatrizes (int [3][2], int [2][3], int [][3]);
 
@@ -24,7 +24,7 @@ main ()
 	
 }//fim do main
 
-//funÁ„o
+//fun√ß√£o
 void MultiMatrizes (int a[3][2], int b[2][3]){
 	
 	int multiResult [3][3];
