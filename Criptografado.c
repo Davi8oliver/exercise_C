@@ -1,5 +1,5 @@
 /*
-	Name:  Criptografado.cpp
+	Name:  Criptografado.c
 	Author: Davi Lopes
 	Date: 09/09/26 11:44
 	Description: Programa para criptografar informações
