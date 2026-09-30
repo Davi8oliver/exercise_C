@@ -7,7 +7,7 @@
 
 #include <stdio.h>
 
-//Prototipação
+//PrototipaÃ§Ã£o
 void imprimirContrario(char *);
 
 main()
@@ -23,7 +23,7 @@ main()
 	
 }
 
-//Função
+//FunÃ§Ã£o
 void imprimirContrario(char *P)
 {
 	
