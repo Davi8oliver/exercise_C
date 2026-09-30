@@ -2,13 +2,13 @@
 	Name:  Criptografado.cpp
 	Author: Davi Lopes
 	Date: 09/09/26 11:44
-	Description: Programa para criptografar informações
+	Description: Programa para criptografar informaÃ§Ãµes
 */
 
 //biblioteca
 #include <stdio.h>
 
-//prototipação
+//prototipaÃ§Ã£o
 void merge (char *, char *);
 
 main(){
@@ -24,7 +24,7 @@ main(){
 	
 }//fim do main
 
-//função
+//funÃ§Ã£o
 void merge (char *N, char *D){
 	
 	int i, j;
