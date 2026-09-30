@@ -2,13 +2,13 @@
 	Name: Fibonacci.cpp
 	Author: Davi Lopes
 	Date: 30/09/26 09:54
-	Description: Programa para exibir a sequência de fibonacci com a quantidade de elementos escolhida pelo usuário
+	Description: Programa para exibir a sequÃªncia de fibonacci com a quantidade de elementos escolhida pelo usuÃ¡rio
 */
 
 //biblioteca
 #include <stdio.h>
 
-//prototipação
+//prototipaÃ§Ã£o
 int * calcularFibonacci(int *, int);
 void imprimirFibonacci(int *, int);
 
@@ -26,7 +26,7 @@ main()
 	
 }//fim
 
-//função para fazer o calculo de fibonacci e armazena-lo em um vetor
+//funÃ§Ã£o para fazer o calculo de fibonacci e armazena-lo em um vetor
 int * calcularFibonacci (int *fibo, int qtd){
 	
 	fibo[0] = 1;
@@ -43,7 +43,7 @@ int * calcularFibonacci (int *fibo, int qtd){
 
 }
 
-//Função para imprimir o vetror préviamente carregado
+//FunÃ§Ã£o para imprimir o vetror prÃ©viamente carregado
 void imprimirFibonacci(int *F, int qtd){
 	
 	puts("\n\n- Conteudo do Vetor -\n");
