@@ -3,14 +3,14 @@
 	Author: Davi Lopes
 	Date: 30/09/26 11:37
 	Description: Programa para carregar um vetor com 25 elementos inteiros
-	 			 passar para uma função e, a partir daí faça a carga em uma matriz quadrada
-	 			 de ordem 5, e depois imprima o vetor em uma função e a matriz em outra.
+	 			 passar para uma funÃ§Ã£o e, a partir daÃ­ faÃ§a a carga em uma matriz quadrada
+	 			 de ordem 5, e depois imprima o vetor em uma funÃ§Ã£o e a matriz em outra.
 */
 
 //biblioteca
 #include <stdio.h>
 
-//prototipação
+//prototipaÃ§Ã£o
 void carregarMatriz(int *, int[][5]);
 void imprimirVetor(int *);
 void imprimirMatriz(int [][5]);
@@ -27,7 +27,7 @@ main()
 	
 }//fim
 
-//função
+//funÃ§Ã£o
 void carregarMatriz(int *V, int M[5][5]){
 	
 	for (int i = 0; i < 5; i++){
