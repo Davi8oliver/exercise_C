@@ -2,14 +2,14 @@
 	Name: MediaDez.cpp
 	Author: Davi Lopes
 	Date: 04/09/26 10:10
-	Description: Programa para calcular a média de dez números com vetores e funções
+	Description: Programa para calcular a mÃ©dia de dez nÃºmeros com vetores e funÃ§Ãµes
 */
 
 //Biblioteca
 
 #include <stdio.h>
 
-//prototipação
+//prototipaÃ§Ã£o
 void carregarVetor (int *);
 int calcularMedia (int *);
 void exibirMediaArredondada (int);
@@ -25,7 +25,7 @@ main (){
 	
 }//fim do main
 
-//funções
+//funÃ§Ãµes
 void carregarVetor (int *V){
 	
 	for (int i = 0; i <10; i++){
