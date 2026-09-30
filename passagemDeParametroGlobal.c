@@ -2,14 +2,14 @@
 	Name: passagemDeParametroGlobal.cpp
 	Author: Davi Lopes
 	Date: 26/08/26 09:59
-	Description: Programa para realizar a troca de valores entre vari·veis demonstrando o conceito de passagem de par‚metros tanto por C”PIA quanto por REFER NCIA
+	Description: Programa para realizar a troca de valores entre vari√°veis demonstrando o conceito de passagem de par√¢metros tanto por C√ìPIA quanto por REFER√äNCIA
 */
 
-//SeÁ„o de biblioteca
+//Se√ß√£o de biblioteca
 
 #include <stdio.h>
 
-//SeÁ„o de prototipaÁ„o
+//Se√ß√£o de prototipa√ß√£o
 
 void trocar ();
 
@@ -36,8 +36,8 @@ main(){
 
 }//fim do main
 
-/*FunÁ„o para realizar a troca de valores
-entre duas vari·veis*/
+/*Fun√ß√£o para realizar a troca de valores
+entre duas vari√°veis*/
 void trocar (){
 	
 	int aux = 0;
