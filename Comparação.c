@@ -1,5 +1,5 @@
 /*
-	Name: Comparação.cpp
+	Name: Comparação.c
 	Author: Davi Lopes
 	Date: 21/09/26 18:38
 	Description: Programa para verificar entre somas de conjuntos de inteiros qual é o maior
